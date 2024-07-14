@@ -61,7 +61,7 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.Developed a responsive and visually appealing portfolio website using React, a popular JavaScript library for building user interfaces, and Tailwind CSS, a utility-first CSS framework for styling and layout.",
     technologies: ["React", "Bootstrap"],
-    link: "https://www.google.com/"
+    link: "react-portfolio-i7ntb1wbh-abhishek-pratap-malls-projects.vercel.app"
   },
   {
     title: "TO-DO App",
