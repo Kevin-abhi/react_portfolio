@@ -48,13 +48,13 @@ const Hero = () => {
                  animate="visible"
                className="w-full lg:w-1/2">
                 <div  className="flex justify-start text-2xl tracking-tight text-transparent bg-gradient-to-r from-pink-50 via-slate-800 to-purple-800 bg-clip-text hover:text-pretty">
-                <button type="button" class="btn btn-primary btn-lg">Large button</button>
-                    {/* <a
+
+                    <a
                         href={pdf}
                         download="Resume.pdf"
                     >
                         Download Resume
-                    </a> */}
+                    </a>
                     
                 </div>  
             </motion.div>                    
