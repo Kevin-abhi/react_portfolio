@@ -47,7 +47,7 @@ const Hero = () => {
                  initial="hidden"
                  animate="visible"
                className="w-full lg:w-1/2">
-                <div  className="flex justify-start text-2xl tracking-tight text-transparent bg-gradient-to-r from-pink-50 via-slate-800 to-purple-800 bg-clip-text hover:text-pretty">
+                <div  className="flex justify-start pb-6 text-2xl tracking-tight text-transparent bg-gradient-to-r from-pink-50 via-slate-800 to-purple-800 bg-clip-text hover:text-pretty">
 
                     <a
                         href={pdf}
