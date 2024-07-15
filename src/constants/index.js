@@ -60,7 +60,7 @@ export const PROJECTS = [
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.Developed a responsive and visually appealing portfolio website using React, a popular JavaScript library for building user interfaces, and Tailwind CSS, a utility-first CSS framework for styling and layout.",
-    technologies: ["React", "Bootstrap"],
+    technologies: ["React", "Tailwind CSS"],
     link: "#home"
   },
   {
