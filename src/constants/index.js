@@ -40,7 +40,7 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "Video treaming App",
+    title: "Video Streaming App",
     image: project4,
     description:
       "Designed and implemented a video streaming system that transmitted video data in small packets, achieving less than 1-second latency for real-time playback.Employed M3U8 format to implement adaptive bitrate streaming, resulting in a 25% reduction in buffering by dynamically adjusting video quality based on the user’s internet connection speed.",
