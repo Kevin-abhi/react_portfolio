@@ -9,6 +9,7 @@ import Sendmess from './components/Sendmess';
 import About from './components/About';
 import { Toaster } from "react-hot-toast";
 
+
 const App = () => {
   return (
     <div className='overflow-x-hidden antialiased text-neutral-300 selection:bg-cyan-300 selection:text-cyan-900'>
