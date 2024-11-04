@@ -2,6 +2,8 @@ import project1 from "../assets/projects/e-commerce.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/portfolio.jpg";
 import project4 from "../assets/projects/project-4.jpg";
+import project6 from "../assets/projects/project-6.jpg";
+import project5 from "../assets/projects/project-5.jpg";
 
 export const HERO_CONTENT = `I am a passionate full stack web developer with a knack for crafting robust and scalable web applications. With 1 years of hands-on experience, I have honed my skills in front-end technologies like React, Javascript, Tailwind CSS and Next.js, as well as back-end technologies like Node.js, MySQL and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -40,6 +42,14 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
+    title: "Wanderlust: A Global Travel Discovery Platform",
+    image: project6,
+    description:
+      "Wanderlust is a full-stack platform designed for travel enthusiasts to discover and share amazing travel destinations. Built with JavaScript, Express.js, Node.js, MongoDB, CSS, and EJS, the platform allows users to explore new places, post reviews, and connect with a community of travelers. This project showcases my expertise in full-stack development, with a focus on creating robust backend services and engaging, responsive user interfaces. Through Wanderlust, I gained hands-on experience in managing a full development cycle, from server-side logic to database management and frontend design, further enhancing my proficiency in web technologies.",
+    technologies: ["JavaScript", "NodeJs","ExpressJs","MongoDb","Joi"],
+      // link: "https://react-e-commerce-shop-xi.vercel.app/"
+  },
+  {
     title: "Video Streaming App",
     image: project4,
     description:
@@ -62,6 +72,14 @@ export const PROJECTS = [
       "A personal portfolio website showcasing projects, skills, and contact information.Developed a responsive and visually appealing portfolio website using React, a popular JavaScript library for building user interfaces, and Tailwind CSS, a utility-first CSS framework for styling and layout.",
     technologies: ["React", "Tailwind CSS"],
     link: "#home"
+  },
+  {
+    title: "Weather-react App",
+    image: project5,
+    description:
+      "A dynamic weather application built using React that provides real-time weather updates for locations worldwide. Leveraging a clean and intuitive UI, users can search for any city to view current weather conditions, temperature, humidity, and forecasts. The app integrates with a weather API to fetch accurate and up-to-date data. This project demonstrates my skills in React, API integration, and responsive design for a seamless user experience across all devices.",
+    technologies: ["React.js", "openweathermap Api"],
+    link: "https://weather-reactapp-henna.vercel.app/"
   },
   {
     title: "TO-DO App",
